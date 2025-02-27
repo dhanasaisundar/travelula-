@@ -1,0 +1,51 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px;
+  background-color: #ffffff;
+}
+
+.navbar img {
+  width: 100px;
+  height: 100px;
+}
+
+.navlinks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.navlinks p {
+  margin: 0 15px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+.navlinks p:hover {
+  color: #EB5B00;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.booknow {
+  margin: 0 10px;
+  border: none;
+  background-color: #ffb200;
+  color: #000000;
+  padding: 15px 25px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+
+.booknow:hover {
+  background-color: #eb5b00;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}

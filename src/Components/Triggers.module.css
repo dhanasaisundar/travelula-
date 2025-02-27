@@ -1,0 +1,59 @@
+.section {
+  padding: 4rem 1.5rem;
+  text-align: center;
+}
+
+.title {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 700;
+}
+
+.benefitsList {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-size: 1.125rem;
+}
+
+.benefitItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.icon {
+  font-size: 1.25rem;
+}
+
+.button {
+  margin-top: 1.5rem;
+  background-color: #10b981;
+  color: white;
+  font-size: 1.125rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.375rem;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #059669;
+}
+
+.benefitItem {
+  transition: transform 0.2s ease;
+}
+
+.benefitItem:hover {
+  transform: translateX(5px);
+}
+
+@media (min-width: 768px) {
+  .benefitsList {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

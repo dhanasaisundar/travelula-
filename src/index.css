@@ -1,0 +1,74 @@
+:root {
+  /* Color Variables */
+  --primary-color: #2A9D8F;       /* Teal - main brand color */
+  --secondary-color: #E9C46A;     /* Sand/Gold - accent color */
+  --text-primary: #2C3E50;        /* Dark blue-grey - main text */
+  --text-secondary: #595959;      /* Grey - secondary text */
+  --background-light: #F8F9FA;    /* Light grey - background */
+  --white: #FFFFFF;
+  
+  /* Font settings */
+  font-family: 'Montserrat', system-ui, -apple-system, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  /* Base size for rem units */
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-light);
+  color: var(--text-primary);
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 1.25rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  margin-bottom: 1rem;
+  max-width: 70ch; /* Improves readability */
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--secondary-color);
+}
+
+/* Basic responsive text adjustment */
+@media (max-width: 768px) {
+  :root {
+    font-size: 14px;
+  }
+}
